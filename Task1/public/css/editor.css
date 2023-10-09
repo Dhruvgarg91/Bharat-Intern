@@ -1,0 +1,99 @@
+.banner {
+    width: 100%;
+    height: 300px; /* Increased banner height */
+    position: relative;
+    background: #f2f2f2; /* Changed background color */
+    background-size: cover;
+    background-position: center;
+}
+
+.thumbnail-btn {
+    position: absolute;
+    bottom: 30px; /* Increased bottom position */
+    right: 30px; /* Increased right position */
+    width: 50px; /* Increased button size */
+    height: 50px; /* Increased button size */
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.15); /* Adjusted button background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.thumbnail-btn img {
+    width: 24px; /* Adjusted image size */
+}
+
+.blog {
+    width: 80vw; /* Increased width */
+    min-width: 400px;
+    height: auto; /* Changed height to auto */
+    display: block;
+    margin: auto;
+    padding: 30px 0; /* Adjusted padding */
+}
+
+textarea::-webkit-scrollbar {
+    width: 8px; /* Slightly reduced scrollbar width */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Slightly reduced border radius */
+}
+
+.title,
+.article {
+    width: 100%;
+    min-height: 120px; /* Increased minimum height */
+    height: auto; /* Changed height to auto */
+    outline: none;
+    font-size: 36px; /* Decreased font size */
+    font-weight: 600;
+    color: #5a1616; /* Changed title color */
+    border: none;
+    padding: 15px; /* Adjusted padding */
+    border-radius: 10px;
+}
+
+.title::placeholder,
+.article::placeholder {
+    color: #8c1a1a; /* Changed placeholder color */
+}
+
+.article {
+    height: 600px; /* Increased height */
+    font-size: 18px; /* Decreased font size */
+    margin-top: 20px;
+    line-height: 28px; /* Adjusted line height */
+    font-weight: 500;
+    padding-bottom: 80px; /* Adjusted padding */
+    white-space: pre-wrap;
+}
+
+.blog-options {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; /* Increased height */
+    background: #fff;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn.grey {
+    background: #999; /* Changed button background */
+    color: #fff;
+    margin-left: 30px; /* Increased margin left */
+    font-size: 16px; /* Increased font size */
+}
